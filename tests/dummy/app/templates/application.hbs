@@ -1,7 +1,31 @@
-<h2 id="title">ember-palette</h2>
+<nav class="navbar">
+  <p class="navbar-item is-centered">
+    <h1 class="title">ember-palette</h1>
+  </p>
+</nav>
 
-{{outlet}}
+<div class="columns">
+  <div class="column is-quarter"></div>
+  <div class="column is-half">
+    {{outlet}}
 
-{{color-palette selected=color onselect=(action (mut color))}}
+    <div class="card is-full">
+      <figure class="card-image is-4x3" style="background-color: {{color}}"></figure>
+      <div class="card-content">
+        {{color-palette selected=color onselect=(action (mut color))}}
 
-<div class="demo" style="background-color: {{color}}"></div>
+        <hr/>
+
+        <div class="content">
+          <pre>
+&#123;&#123;! color=#e91e63  &#125;&#125;
+&#123;&#123;color-palette
+    selected=color
+    onselect=(action (mut color))
+&#125;&#125;
+          </pre>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

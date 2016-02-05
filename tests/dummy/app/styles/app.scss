@@ -1,0 +1,23 @@
+@import 'bulma/utilities/utilities';
+@import 'bulma/config/variables';
+@import 'bulma/config/generated-variables';
+@import 'bulma/base/base';
+@import 'bulma/elements/elements';
+@import 'bulma/components/components';
+@import 'bulma/layout/layout';
+@import 'ember-power-select';
+
+body {
+  padding: 1em;
+}
+
+.demo {
+  margin-top: 1em;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.card.is-full {
+  width: 100%;
+}
