@@ -19,4 +19,12 @@
 
 * `ember build`
 
+## Github Pages/Demo App
+
+```no-highlight
+ember github-pages:commit --message <message>
+git push
+```
+
 For more information on using ember-cli, visit [http://www.ember-cli.com/](http://www.ember-cli.com/).
+
