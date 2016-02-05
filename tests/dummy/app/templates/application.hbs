@@ -1,3 +1,7 @@
 <h2 id="title">Welcome to Ember</h2>
 
 {{outlet}}
+
+{{color-palette selected=color onselect=(action (mut color))}}
+
+<div class="demo" style="background-color: {{color}}"></div>

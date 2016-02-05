@@ -1,0 +1,1 @@
+export { default } from 'ember-palette/components/ember-palette-selected/component';

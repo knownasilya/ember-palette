@@ -1,1 +1,5 @@
-{{yield}}
+{{#power-select selected=selected options=colors searchEnabled=false
+  selectedItemComponent='ember-palette-selected'
+  dropdownClass='ember-palette-dropdown' onchange=(action onselect) as |color|}}
+  <div class="color-item" style="background-color: {{color}}"></div>
+{{/power-select}}
