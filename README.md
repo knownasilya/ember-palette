@@ -13,6 +13,10 @@ Simple palette component for choosing a predefined color
 {{color-palette selected=color onselect=(action (mut color))}}
 ```
 
+## Attribution
+
+Default colors taken from materialpalette.com
+
 [npm-badge-img]: https://badge.fury.io/js/ember-palette.svg
 [npm-badge-link]: http://badge.fury.io/js/ember-palette
 [travis-badge]: https://travis-ci.org/knownasilya/ember-palette.svg
