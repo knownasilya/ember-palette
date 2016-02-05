@@ -34,7 +34,6 @@
     "ember-disable-proxy-controllers": "^1.0.1",
     "ember-export-application-global": "^1.0.4",
     "ember-load-initializers": "^0.5.0",
-    "ember-power-select": "0.8.6",
     "ember-resolver": "^2.0.3",
     "ember-try": "~0.0.8",
     "loader.js": "^4.0.0"
@@ -45,10 +44,12 @@
     "palette"
   ],
   "dependencies": {
+    "ember-power-select": "0.8.6",
     "ember-cli-htmlbars": "^1.0.1",
     "ember-cli-babel": "^5.1.5"
   },
   "ember-addon": {
-    "configPath": "tests/dummy/config"
+    "configPath": "tests/dummy/config",
+    "demoURL": "http://knownasilya.github.io/ember-palette/"
   }
 }
