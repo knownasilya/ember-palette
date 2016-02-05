@@ -15,7 +15,7 @@ Simple palette component for choosing a predefined color
 
 ## Attribution
 
-Default colors taken from materialpalette.com
+Default colors taken from [materialpalette.com][colors].
 
 [npm-badge-img]: https://badge.fury.io/js/ember-palette.svg
 [npm-badge-link]: http://badge.fury.io/js/ember-palette
@@ -24,3 +24,4 @@ Default colors taken from materialpalette.com
 [ember-observer-badge]: http://emberobserver.com/badges/ember-palette.svg
 [ember-observer-url]: http://emberobserver.com/addons/ember-palette
 [ember-version]: https://embadge.io/v1/badge.svg?start=1.13.0
+[colors]: http://materialpalette.com
