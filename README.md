@@ -7,11 +7,23 @@ Simple palette component for choosing a predefined color
 [![Ember Observer Score][ember-observer-badge]][ember-observer-url]
 ![Ember Version][ember-version]
 
+## Install
+
+```shell
+ember install ember-palette
+```
+
 ## Usage
 
 ```hbs
 {{color-palette selected=color onselect=(action (mut color))}}
 ```
+
+## API
+
+- `selected` - CSS color string, hex is using default colors e.g. '#333333'.
+- `onselect` - Action that receives the selected color string.
+- `colors` - Array of color strings, overrides the default hex strings array.
 
 ## Attribution
 
