@@ -9,16 +9,13 @@ test('it renders', function(assert) {
   // Set any properties with this.set('myProperty', 'value');
   // Handle any actions with this.on('myAction', function(val) { ... });"
 
-  this.render(hbs`{{color-palette}}`);
+  this.set('color', '#2196f3');
 
-  assert.equal(this.$().text().trim(), '');
-
-  // Template block usage:"
   this.render(hbs`
-    {{#color-palette}}
-      template block text
-    {{/color-palette}}
+    {{color-palette selected=color onselect=(action (mut color))}}
+    <div id="color-1" style="background-color: {{color}}"></div>
   `);
 
-  assert.equal(this.$().text().trim(), 'template block text');
+  assert.equal(this.$('#color-1').css('background-color'), 'rgb(33, 150, 243)');
+  assert.equal(this.$('.ember-palette .selected-color-item').css('background-color'), 'rgb(33, 150, 243)');
 });
