@@ -1,6 +1,6 @@
 {
   "name": "ember-palette",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Simple palette component for choosing a predefined color",
   "directories": {
     "doc": "doc",
