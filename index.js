@@ -8,6 +8,8 @@ module.exports = {
   included: function(app, parentAddon) {
     var target = (parentAddon || app);
 
+    this._super.included.apply(this, arguments);
+
     target.import('vendor/ember-palette.css');
   }
 };
