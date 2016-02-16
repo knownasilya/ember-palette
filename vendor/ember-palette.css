@@ -23,7 +23,7 @@
 }
 
 .ember-palette-dropdown li {
-  display: inline;
+  display: inline-block;
 }
 
 .ember-palette-dropdown .ember-power-select-option--highlighted .color-item {
