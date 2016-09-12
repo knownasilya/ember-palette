@@ -38,3 +38,7 @@
 .ember-palette-dropdown .ember-power-select-option--selected {
   background-color: transparent;
 }
+
+.ember-palette .ember-power-select-trigger {
+  padding: 0 16px 0 8px;
+}
