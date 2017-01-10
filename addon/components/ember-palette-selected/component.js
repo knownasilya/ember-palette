@@ -9,9 +9,9 @@ export default Ember.Component.extend({
   style: '',
 
   didReceiveAttrs() {
-    var selected = this.get('selected');
-    var color = cssColor(selected) ? selected : '#374046';
+    let selected = this.get('selected');
+    let color = cssColor(selected) ? selected : '#374046';
 
-    this.set('style', new Ember.Handlebars.SafeString(`background-color: ${color}`));
+    this.set('style', Ember.String.htmlSafe(`background-color: ${color}`));
   }
 });

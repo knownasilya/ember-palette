@@ -1,5 +1,9 @@
-{{#power-select selected=selected options=colors searchEnabled=false
+{{#power-select
+  selected=selected
+  options=colors
+  searchEnabled=false
   selectedItemComponent='ember-palette-selected'
-  dropdownClass='ember-palette-dropdown' onchange=(action onselect) as |color|}}
+  dropdownClass='ember-palette-dropdown'
+  onchange=(action onselect) as |color|}}
   {{ember-palette-selected selected=color class='color-item'}}
 {{/power-select}}
