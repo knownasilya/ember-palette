@@ -1,8 +1,9 @@
-import Ember from 'ember';
+import { htmlSafe } from '@ember/string';
+import Component from '@ember/component';
 import layout from './template';
 import cssColor from '../../utils/css-color';
 
-export default Ember.Component.extend({
+export default Component.extend({
   layout,
   classNames: ['selected-color-item'],
   attributeBindings: ['style'],
@@ -12,6 +13,6 @@ export default Ember.Component.extend({
     let option = this.get('option');
     let color = cssColor(option) ? option : '#374046';
 
-    this.set('style', Ember.String.htmlSafe(`background-color: ${color}`));
+    this.set('style', htmlSafe(`background-color: ${color}`));
   }
 });

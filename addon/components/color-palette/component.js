@@ -1,4 +1,4 @@
-import Ember from 'ember';
+import Component from '@ember/component';
 import layout from './template';
 
 const colors = [
@@ -8,7 +8,7 @@ const colors = [
   '#ff9800', '#ff5722', '#795548', '#9e9e9e', '#607d8b', '#374046'
 ];
 
-export default Ember.Component.extend({
+export default Component.extend({
   layout,
   classNames: ['ember-palette'],
   colors
