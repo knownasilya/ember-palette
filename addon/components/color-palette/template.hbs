@@ -2,8 +2,9 @@
   selected=selected
   options=colors
   searchEnabled=false
-  selectedItemComponent='ember-palette-selected'
-  dropdownClass='ember-palette-dropdown'
-  onchange=(action onselect) as |color|}}
-  {{ember-palette-selected option=color class='color-item'}}
+  selectedItemComponent="ember-palette-selected"
+  dropdownClass="ember-palette-dropdown"
+  onChange=(action onselect) as |color|
+}}
+  {{ember-palette-selected option=color class="color-item"}}
 {{/power-select}}

@@ -5,7 +5,6 @@ Simple palette component for choosing a predefined color
 [![NPM][npm-badge-img]][npm-badge-link]
 [![Build Status][travis-badge]][travis-badge-url]
 [![Ember Observer Score][ember-observer-badge]][ember-observer-url]
-![Ember Version][ember-version]
 
 ## Install
 
@@ -35,5 +34,4 @@ Default colors taken from [materialpalette.com][colors].
 [travis-badge-url]: https://travis-ci.org/knownasilya/ember-palette
 [ember-observer-badge]: http://emberobserver.com/badges/ember-palette.svg
 [ember-observer-url]: http://emberobserver.com/addons/ember-palette
-[ember-version]: https://embadge.io/v1/badge.svg?start=1.13.0
 [colors]: http://materialpalette.com
