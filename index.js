@@ -1,11 +1,10 @@
-'use strict';
+"use strict";
 
 module.exports = {
-  name: 'ember-palette',
+  name: require("./package").name,
 
-
-  included: function(app, parentAddon) {
-    var target = (parentAddon || app);
+  included: function (app, parentAddon) {
+    let target = parentAddon || app;
 
     // necessary for nested usage
     // parent addon should call `this._super.included.apply(this, arguments);`
@@ -16,6 +15,6 @@ module.exports = {
     this.app = target;
     this._super.included.apply(this, arguments);
 
-    target.import('vendor/ember-palette.css');
-  }
+    target.import("vendor/ember-palette.css");
+  },
 };

@@ -6,7 +6,13 @@ Simple palette component for choosing a predefined color
 [![Build Status][travis-badge]][travis-badge-url]
 [![Ember Observer Score][ember-observer-badge]][ember-observer-url]
 
-## Install
+## Compatibility
+
+- Ember.js v3.12 or above
+- Ember CLI v2.13 or above
+- Node.js v10 or above
+
+## Installation
 
 ```shell
 ember install ember-palette
@@ -23,6 +29,10 @@ ember install ember-palette
 - `selected` - CSS color string, hex is using default colors e.g. '#333333'.
 - `onselect` - Action that receives the selected color string.
 - `colors` - Array of color strings, overrides the default hex strings array.
+
+## Contributing
+
+See the [Contributing](CONTRIBUTING.md) guide for details.
 
 ## Attribution
 
