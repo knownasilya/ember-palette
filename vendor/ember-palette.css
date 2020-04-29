@@ -21,6 +21,10 @@
   overflow-x: hidden !important;
 }
 
+.ember-palette-dropdown .ember-power-select-option {
+  display: flex;
+}
+
 .ember-palette-dropdown li {
   display: inline-block;
   padding: 0;
@@ -40,5 +44,6 @@
 }
 
 .ember-palette .ember-power-select-trigger {
+  display: flex;
   padding: 0;
 }
