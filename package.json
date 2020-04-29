@@ -1,6 +1,6 @@
 {
   "name": "ember-palette",
-  "version": "2.0.2",
+  "version": "3.0.0",
   "description": "Simple palette component for choosing a predefined color",
   "keywords": [
     "ember-addon",
