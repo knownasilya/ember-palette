@@ -21,7 +21,10 @@ ember install ember-palette
 ## Usage
 
 ```hbs
-{{color-palette selected=color onselect=(action (mut color))}}
+<ColorPalette
+  @selected={{this.color}}
+  @onselect={{fn (mut this.color)}}
+/>
 ```
 
 ## API
